@@ -1,0 +1,16 @@
+.btnEl {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+.image {
+  text-align: center;
+  width: 46%;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,39 @@
+/* Write your CSS code here. */
+.bg_container {
+
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 606px;
+  padding: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .feedback-card {
+    padding: 32px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .feedback-card {
+    padding: 64px;
+  }
+}
+
+.heading {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.itemsContainer {
+  padding: 0px;
+  display: flex;
+  list-style-type: none;
+}
